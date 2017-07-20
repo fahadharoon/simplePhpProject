@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	color: #333;
+}*/
+/*.wrapper
+{
+	width:100%;
+    margin:0 auto;
+    overflow:hidden;
+}*/
+
+.col2
+{
+	float: right;
+	position: relative;
+	width:70%;
+	margin:0 auto;
+	bottom:380px;
+
+}
+.clear	
+{
+	clear: both;	
+}
+.box
+{
+	position: relative;
+	margin: 0 auto;	
+	background-color: #C90000;
+	width: 200px; 
+	height: 200px;
+	padding: 15px;
+	float: left;
+	left:25%;
+	margin: 10px;
+	bottom: 855px;
+	box-sizing: border-box;
+}
+.box h3
+{
+	font-size: 42px;
+	color: #FFF;
+}
+.box p
+{
+	color: #FFF;
+}
+.content_header
+{
+
+	position: relative;
+	margin: 0 auto;
+	bottom:840px;
+	left: 26%;
+
+
+}
+.content_header h2
+{
+color: #C90000;
+}
+.err 
+{
+	color: #fff;
+}
+.success
+{
+	color: #0F0;
+}
+.content
+{
+	position: relative;
+	margin: 0 auto;
+	bottom:840px;
+	left: 26%;
+}
+.footer
+{
+	margin-top: 25%;
+}
+
+
+
+
+/*Side Bar*/
+
+
+#sidebar {
+    background-color: #191919;
+    padding:6%;
+    padding-bottom: 40%;
+
+}
+
+#sidebar a:hover, a:focus {
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+#sidebar.nav > li > a,
+#sidebar.nav > li > a:link {
+    
+    color: #FFF;
+    padding: 22px;
+    font-size: 16px;
+}
+
+#sidebar.nav > li > a:hover,
+#sidebar.nav > li > a:focus {
+    background-color: #373737;
+}
+
+#sidebar.nav-pills > li.active > a,
+#sidebar.nav-pills > li.active > a:hover,
+#sidebar.nav-pills > li.active > a:focus {
+    color: #FFF;
+    background-color: #C72A25;
+}
+
+
+
+
+
+
+
+/*login for styling*/
+
+
+.bg { 
+    background-image: url('../images/result3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.background
+{
+  background-image: url('../images/result11.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+/*for form positioning*/
+.form-style1 {
+  position: relative;
+  width: 250px;
+  top:150px;
+  left: 2%;
+  margin: 0 auto;
+  background: rgba(130,130,130,.3);
+  padding: 20px 22px;
+  border: 1px solid;
+  }
+
+/*for form transparency*/
+.form-style2 {
+  width: 212px;    /*textbox width*/
+  border: 1px solid;
+  border-bottom-color: rgba(255,255,255,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  
+  padding: 8px 24px 8px 10px;
+  /*font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;*/
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  margin-bottom: 19px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+/*for button transparency*/
+.form-style3 {
+  width: 212px;
+  border: 1px solid;
+  border-bottom-color: rgba(255,255,255,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  background-repeat: no-repeat;
+  padding: 8px 24px 8px 10px;
+  /*font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;*/
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  margin-bottom: 19px;
+}
+
+/*for form transparency*/
+.form-style4 {
+  width: 1  2px;    /*textbox width*/
+  border: 1px solid;
+  border-bottom-color: rgba(255,255,255,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  
+  padding: 8px 94px 8px 10px;
+  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  margin-bottom: 19px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.form-style5 {
+  width: 120px;
+  border: 2px solid;
+  border-bottom-color: rgba(255,255,255,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  background-repeat: no-repeat;
+  padding: 8px 24px 8px 16px;
+  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  margin-bottom: 19px;
+  margin-left:-200px;
+}
+
+.form-style6 {
+  position: relative;
+  width: 330px;
+  top:230px;
+  left: 2%;
+  margin: 0 auto;
+  background: rgba(130,130,130,.3);
+  padding: 20px 22px;
+ /* border: 1px solid;*/
+  }
+/*.table
+{
+  position: absolute;
+  margin-top:5%;
+  margin-left:10%;
+  border: 1px solid black;
+}*/
+
+
+
+
+
